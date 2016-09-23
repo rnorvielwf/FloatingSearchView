@@ -228,7 +228,7 @@ public class FloatingSearchView extends RelativeLayout {
         mSearchContainer.setMinimumHeight((int) mSearchBackground.getMinHeight());
         mSearchContainer.setMinimumWidth((int) mSearchBackground.getMinWidth());
 
-        mRecyclerView.addItemDecoration(mCardDecorator);
+        //mRecyclerView.addItemDecoration(mCardDecorator);
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setVisibility(View.INVISIBLE);
 
